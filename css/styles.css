@@ -140,9 +140,21 @@ a {
 /*hero section*/
 
 .hero-section {
+  position: relative;
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/goit-markup-hw-04/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container-hero {
