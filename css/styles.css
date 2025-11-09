@@ -198,6 +198,20 @@ a {
 .features-section {
 }
 
+.features-div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  max-width: 264px;
+  height: 112px;
+}
+
+.features-icon {
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
