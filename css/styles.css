@@ -275,6 +275,8 @@ a {
 .team-div-titdes {
   padding-bottom: 32px;
   padding-top: 32px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
@@ -308,15 +310,12 @@ a {
   text-align: center;
 }
 
-.team-div-social {
-  margin-top: 8px;
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
 .team-social-list {
   display: flex;
   gap: 24px;
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .team-social-list-item {
@@ -365,7 +364,22 @@ a {
   column-gap: 24px;
 }
 
-.portfolio-div-titdes {
+.portfolio-list-item {
+  
+}
+
+.portfolio-div-image {
+ position: relative;
+  overflow: hidden;
+}
+  
+.portfolio-div-image:hover {
+  transform: translateY(0);}
+
+
+
+
+  .portfolio-div-titdes {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -392,6 +406,31 @@ a {
   color: #434455;
 }
 
+.portfolio-overlay {
+  position: absolute;
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 300px;
+  font-size: 16px
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+color: #f4f4fd;
+padding-top: 40px;
+padding-left: 32px;
+padding-right: 32px;
+padding-bottom: 164px
+  left: 0;
+  top: 0;
+overflow: hidden;
+transform: translateY(150%);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-div-image:hover .portfolio-overlay {
+  transform: translateY(0);
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
+
 /*footer*/
 
 .page-footer {
@@ -400,6 +439,13 @@ a {
 }
 
 .footer-container {
+  display: flex;
+ 
+  gap: 120px;  
+}
+
+.footer-div-social {
+  max-width: 208px;
 }
 
 .logo-footer-logo {
@@ -425,4 +471,17 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:  #fff;
+  left:0;
+}
+
+.footer-social-list {
+  margin-left: 0;
 }
