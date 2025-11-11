@@ -319,6 +319,7 @@ a {
   margin-top: 8px;
   margin-left: 16px;
   margin-right: 16px;
+  justify-content: center:
 }
 
 .team-social-list-item {
@@ -342,7 +343,7 @@ a {
 }
 
 .team-icon {
-  fill: white;
+  fill:#f4f4fd;
   stroke: white;
 }
 
