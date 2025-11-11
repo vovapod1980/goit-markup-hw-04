@@ -379,10 +379,10 @@ a {
   overflow: hidden;
 }
   
-.portfolio-div-image:hover {
-  transform: translateY(0);}
+/* .portfolio-div-image:hover {
+  transform: translateY(0);} */
 
-  .portfolio-div-image:hover .portfolio-overlay {
+  .portfolio-list-item:hover .portfolio-overlay {
   transform: translateY(0);
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
 
