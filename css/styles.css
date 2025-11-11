@@ -371,19 +371,16 @@ a {
 }
 
 .portfolio-list-item {
-  
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio-div-image {
- position: relative;
-  overflow: hidden;
+ 
 }
   
 .portfolio-div-image:hover {
   transform: translateY(0);}
-
-
-
 
   .portfolio-div-titdes {
   border-bottom: 1px solid #e7e9fc;
