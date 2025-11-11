@@ -319,11 +319,12 @@ a {
   margin-top: 8px;
   margin-left: 16px;
   margin-right: 16px;
-  justify-content: center:
+  
 }
 
 .team-social-list-item {
   width: calc((100% - 3 * 24px) / 4);
+  justify-content: center:
 }
 
 .team-link {
