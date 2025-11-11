@@ -323,8 +323,9 @@ a {
 }
 
 .team-social-list-item {
-  width: calc((100% - 3 * 24px) / 4);
-  
+  /* width: calc((100% - 3 * 24px) / 4); */
+
+  width: 40px;
 }
 
 .team-link {
