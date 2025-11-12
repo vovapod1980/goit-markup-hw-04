@@ -421,11 +421,13 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 color: #f4f4fd;
-padding-top: 40px;
+/* padding-top: 40px;
 padding-left: 32px;
 padding-right: 32px;
-padding-bottom: 164px
-  left: 0;
+padding-bottom: 164px */
+padding: 40px 32px;
+  left: 0;  
+left: 0;
   top: 0;
 overflow: hidden;
 transform: translateY(150%);
