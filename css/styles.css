@@ -475,6 +475,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
 }
 
+
+.logo-footer-logo:hover,
+.logo-footer-logo:focus{
+  background-color: #31d0aa;
+}
+
 .logo-footer-logo .logo-footer-part {
   color: #f4f4fd;
 }
