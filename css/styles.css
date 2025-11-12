@@ -339,8 +339,8 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-link:hover,
-.team-link:focus {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #404bbf;
 }
 
@@ -476,14 +476,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.logo-footer-logo:hover,
-.logo-footer-logo:focus {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
 .logo-footer-logo .logo-footer-part {
   color: #f4f4fd;
 }
+
+
 
 .footer-description {
   font-weight: 700;
